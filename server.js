@@ -36,7 +36,7 @@ app.get('/submit-name/:name',  function (req, res) {
     // JSON javascript object notation
     
     res.send(JSON.stringify (names)); 
-}
+});
 
 var port = 80;//Use 8080 only for local development if you already have apache running on 80
 app.listen(port, function () {
